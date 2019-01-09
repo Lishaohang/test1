@@ -1,0 +1,30 @@
+spring:
+  thymeleaf:
+    prefix: /WEB-INF/view/
+    suffix: .html
+    cache: false
+
+server:
+  port: 10001
+  servlet:
+    context-path: /hello
+
+#普通数据
+name: lishaohang
+# 对象
+person:
+    name: tom
+    age: 18
+    sex: man
+#普通集合
+city:
+  - beijing
+  - xian
+#对象集合
+students:
+  - name: a1
+    age: b1
+    sex: male
+  - name: a2
+    age: b2
+    sex : female
